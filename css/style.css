@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    /* border: 2px solid darkred; */
+    padding: 20px;
+    background: lightcyan;
+    position: sticky;
+    top: 0;
+}
+
+.con {
+    /* border: 2px solid black; */
+    width: 1280px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+ul {
+    list-style: none;
+    /* border: 2px solid darkred; */
+}
+
+header {
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.banner {
+    /* border: 2px solid black; */
+    background: lightpink;
+    height: 650px;
+    display: flex;
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.banner .left .b {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 46.8px;
+}
+
+.banner .left button {
+    background: #FF5353;
+    border-style: none;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 8px;
+}
+
+.banner .left button:hover {
+    background: white;
+    color: darkblue;
+}
+
+.right {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+}
+
+.right img {
+    height: 100%;
+}
+
+.card .bold {
+    text-align: center;
+    padding: 50px;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.card .box {
+    /* border: 2px solid darkorange; */
+    padding-top: 30px;
+}
+
+.box1 .price {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+.box1 .price .gray {
+    color: gray;
+    font-weight: 200;
+}
+
+.gap {
+    padding-top: 8px;
+}
+
+.banner2 {
+    /* border: 2px solid black; */
+    background: #EAE2D8;
+    height: 550px;
+    display: flex;
+
+}
+
+.banner2 .left button {
+    background: #FF5353;
+    border-style: none;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 8px;
+}
+
+.banner2 .left button:hover {
+    background: white;
+    color: darkblue;
+}
+
+.banner2 .left .b {
+    font-size: 60px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 46.8px;
+}
+
+.banner2 .left .bold {
+    padding: 30px;
+    font-size: 36px;
+}
+
+.c1 {
+    text-align: center;
+    /* border: 1px solid gray; */
+    padding: 36px;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.c1 p {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icon {
+    color: red;
+}
+
+.c1 .gray {
+    color: gray;
+    font-weight: 200;
+}
+
+.j {
+    padding: 10px;
+}
+
+.t {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.c {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.padding {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background: #E9E2D8;
+}
+
+.foot {
+    padding: 40px;
+}
+
+.foot li {
+    padding: 10px;
+    padding-left: 0;
+}
+
+.us {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.last {
+    border-top: 1px solid lightgray;
+    padding: 30px;
+    text-align: center;
+}
+
+.color {
+    color: red;
+}
